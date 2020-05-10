@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggradasi"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/img"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/img"
+        android:text="Rumah Sakit Ibu dan Anak"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:id="@+id/rs"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/rs"
+        android:text="Muslimat Jombang"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+
+        android:textSize="20sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:cardCornerRadius="10dp"
+
+        app:cardElevation="5dp"
+
+
+        android:background="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selamat Datang"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Silahkan Login atau Register untuk Mulai"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:textColor="@color/theme_green_primary"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:id="@+id/btnlogin"
+
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textColor="@color/theme_green_primary"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:id="@+id/btnregistrasi"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+</RelativeLayout>

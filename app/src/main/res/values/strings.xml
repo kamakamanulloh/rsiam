@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RSIA Muslimat</string>
+    <string name="isikan_kode_anda_di_bawah_ini">Isi Kode OTP</string>
+    <string name="resend_code">Kirim Ulang Kode</string>
+    <string name="otp_success">Sukses</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
